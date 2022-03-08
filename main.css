@@ -23,7 +23,7 @@ li a {
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 18px 20px;
     text-decoration: none;
     font-weight: bold;
     font-family:Arial, Helvetica, sans-serif;
@@ -33,7 +33,7 @@ li a {
 .centerarea{
     padding-top: 10%;
     padding-left: 30%;
-    padding-bottom: 3%;
+    padding-bottom: 2%;
 }
 
 p.name{
@@ -44,4 +44,35 @@ p.name{
 
 .navbar{
     margin: 0;
+}
+
+.zoom:hover{
+    transform: scale(1.25); 
+}
+
+.zoom{
+    transition: transform .25s;
+}
+
+.imglink{
+    padding-left: 1%;
+    transform: scale(1.17);
+}
+
+.imglink1{
+    padding-left: 1%;
+}
+
+.imglinks{
+    padding-right: 5%;
+    
+}
+
+.centerarea2{
+    padding-top: 15%;
+    padding-left: 35%;
+}
+
+.email{
+    font-size: 200%;
 }
